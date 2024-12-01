@@ -3,10 +3,10 @@ import React, { useState, useRef } from "react";
 import { View, TextInput, FlatList, Text } from "react-native";
 import axios from "axios";
 import debounce from "lodash.debounce";
-import globalStyles from "../../styles/globalStyles";
+import globalStyles from "../styles/globalStyles";
 import Loader from "../components/Loader";
 import NoResults from "../components/NoResults";
-import { handleError } from "../utils/errorHandler";
+import { handleError } from "../firebase/utils/errorHandler";
 
 const SearchFilterScreen = () => {
   const [searchText, setSearchText] = useState("");

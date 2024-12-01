@@ -8,7 +8,7 @@ import {
   ActivityIndicator,
   StyleSheet,
 } from "react-native";
-import { database } from "./firebase";
+import { database } from "../firebase/firebaseConfig";
 import { ref, onValue } from "firebase/database";
 
 const HomeScreen = ({ navigation }) => {

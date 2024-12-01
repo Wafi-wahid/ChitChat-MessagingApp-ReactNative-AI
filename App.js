@@ -2,14 +2,14 @@
 
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
-import { createStackNavigator } from "@react-navigation/stack";
+import { createStackNavigator } from "@react-navigation/native-stack";
 import LoginScreen from "./screens/LoginScreen";
 import HomeScreen from "./screens/HomeScreen";
 import ProfileScreen from "./screens/ProfileScreen";
 import MessageScreen from "./screens/MessageScreen";
-import SettingsScreen from "./screens/SettingsScreen";
+import SettingsScreen from "./screens/SettingScreen";
 import SearchScreen from "./screens/SearchScreen";
-import ForgotPasswordScreen from "./screens/ForgotPasswordScreen";
+import ForgotPasswordScreen from "./screens/ForgetPasswordScreen";
 import RegisterScreen from "./screens/RegisterScreen";
 import SearchFilterScreen from "./screens/SearchFilterScreen";
 

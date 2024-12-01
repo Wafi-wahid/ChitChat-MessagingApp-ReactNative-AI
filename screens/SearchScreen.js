@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { TextInput, FlatList, Text, View } from "react-native";
-import { database } from "./firebase";
+import { database } from "../firebase/firebaseConfig";
 import { ref, onValue } from "firebase/database";
 
 const SearchScreen = () => {

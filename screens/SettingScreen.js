@@ -2,7 +2,7 @@
 
 import React from "react";
 import { View, Button } from "react-native";
-import { auth } from "./firebase";
+import { auth } from "../firebase/firebaseConfig";
 import { signOut } from "firebase/auth";
 
 const SettingsScreen = ({ navigation }) => {

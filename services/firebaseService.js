@@ -1,7 +1,7 @@
 //services/firebaseService.js
-import { database } from "./firebase";
+import { database } from "../firebase/firebaseConfig";
 import { ref, set, push } from "firebase/database";
-import { handleError } from "../utils/errorHandler";
+import { handleError } from "../firebase/utils/errorHandler";
 
 export const sendMessageToFirebase = async (message) => {
   try {

@@ -7,7 +7,7 @@ import {
   StyleSheet,
   ToastAndroid,
 } from "react-native";
-import { database, auth } from "./firebase";
+import { database, auth } from "../firebase/firebaseConfig";
 import { ref, update } from "firebase/database";
 
 const ProfileScreen = () => {

@@ -3,7 +3,7 @@ import React from "react";
 import { TextInput, Button, View, Text } from "react-native";
 import { Formik } from "formik";
 import * as Yup from "yup";
-import globalStyles from "../../styles/globalStyles";
+import globalStyles from "../styles/globalStyles";
 import { sendMessageToFirebase } from "../services/firebaseService";
 
 const MessageScreen = () => {

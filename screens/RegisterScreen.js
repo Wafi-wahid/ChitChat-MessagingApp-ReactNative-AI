@@ -9,7 +9,7 @@ import {
   ActivityIndicator,
 } from "react-native";
 import { createUserWithEmailAndPassword } from "firebase/auth";
-import { auth, database } from "./firebase";
+import { auth, database } from "../firebase/firebaseConfig";
 import { ref, set } from "firebase/database";
 import { Formik } from "formik";
 import * as Yup from "yup";
